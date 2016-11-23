@@ -1,0 +1,63 @@
+server:
+    port: 80
+    compression:
+        min-response-size: 8192
+        enabled: true
+        mime-types: text/html,text/css,text/javascript,application/javascript,image/gif,image/png,image/jpg
+    undertow:
+        io-threads: 4
+        worker-threads: 10
+        buffer-size: 16384
+        accesslog:
+            enabled: true
+            dir: E:\jcalaBlog\master\blog\log\server_log
+            pattern: combined
+logging:
+    config: classpath:logback-spring.xml
+    path: E:\jcalaBlog\master\blog\log\spring_log
+spring:
+    velocity:
+        cache: true
+        charset: UTF-8
+        view-names: error,index,projects,tags,tagView,archives,post,about,login,signup,tools/twoDimension,tools/sendEmail,admin/blog_add,admin/project,
+                    admin/moniter,admin/blog_modify,admin/blog_list,admin/info,admin/result,admin/resume,
+        properties:
+          input.encoding: UTF-8
+          output.encoding: UTF-8
+          velocimacro.library: VM_global_library.vm
+          directive.parse.max.depth: 6
+    http:
+        encoding.charset: UTF-8
+        encoding.force: false
+        multipart:
+          max-file-size: 48MB
+          max-request-size: 400MB
+    cache:
+        cache-names: ehcache
+        ehcache:
+            config: ehcache.xml
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        username: root
+        password: 123
+        url: jdbc:mysql://localhost:3306/jcala_blog?useUnicode:true&amp;characterEncoding:UTF-8
+        driverClassName: com.mysql.jdbc.Driver
+        schema: classpath:import.sql
+        data: classpath:data.sql
+        #是否导入数据库表结构以及demo数据
+        initialize: false
+        sql-script-encoding: UTF-8
+        hikari:
+            connection-timeout: 30000
+            maximum-pool-size: 150
+            minimum-idle: 15
+mybatis:
+    type-aliases-package: me.career.blog.domain,me.career.blog.mapping
+    type-handlers-package: org.apache.ibatis.type.LocalDateTypeHandler
+    config-location: classpath:mybatis-config.xml
+reverse:
+    domain: http://127.0.0.1:8090
+    root: E:\jcalaBlog\master\careerBlog\static
+
+path:
+    uploadFilePath: E:\uploadFiles
