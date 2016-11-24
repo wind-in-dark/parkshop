@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.service;
+package parkshop.pmcourse.service;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
-import parkshop.pmcourse.conf.domain.Info;
-import parkshop.pmcourse.conf.inter.InfoSer;
-import parkshop.pmcourse.conf.mapping.InfoMapper;
+import parkshop.pmcourse.domain.Info;
+import parkshop.pmcourse.mapping.InfoMapper;
+import parkshop.pmcourse.service.inter.InfoSer;
 
 /**
  * Created by Administrator on 2016/9/8.

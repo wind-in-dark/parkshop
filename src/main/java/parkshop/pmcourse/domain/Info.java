@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.domain;
+package parkshop.pmcourse.domain;
 
 import javax.servlet.http.HttpServletRequest;
 

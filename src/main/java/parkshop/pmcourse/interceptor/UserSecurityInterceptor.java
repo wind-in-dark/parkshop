@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.interceptor;
+package parkshop.pmcourse.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import parkshop.pmcourse.conf.domain.Info;
+import parkshop.pmcourse.domain.Info;
 
 /**
  * 用户登录后台管理的拦截器

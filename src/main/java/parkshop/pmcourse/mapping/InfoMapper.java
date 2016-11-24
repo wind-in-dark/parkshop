@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.mapping;
+package parkshop.pmcourse.mapping;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
-import parkshop.pmcourse.conf.domain.Info;
+import parkshop.pmcourse.domain.Info;
 
 /**
  * mybatis的mapper

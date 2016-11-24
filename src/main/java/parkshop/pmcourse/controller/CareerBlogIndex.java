@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.controller;
+package parkshop.pmcourse.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

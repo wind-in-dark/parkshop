@@ -51,7 +51,7 @@ spring:
             maximum-pool-size: 150
             minimum-idle: 15
 mybatis:
-    type-aliases-package: me.career.blog.domain,me.career.blog.mapping
+    type-aliases-package: parkshop.pmcourse.domain,parkshop.pmcourse.mapping
     type-handlers-package: org.apache.ibatis.type.LocalDateTypeHandler
     config-location: classpath:mybatis-config.xml
 reverse:

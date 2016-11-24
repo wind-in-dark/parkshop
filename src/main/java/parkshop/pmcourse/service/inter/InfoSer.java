@@ -1,10 +1,8 @@
-package parkshop.pmcourse.conf.inter;
-
-import org.springframework.cache.annotation.Cacheable;
-
-import parkshop.pmcourse.conf.domain.Info;
+package parkshop.pmcourse.service.inter;
 
 import javax.servlet.http.HttpServletRequest;
+
+import parkshop.pmcourse.domain.Info;
 
 /**
  * 个人信息的service接口

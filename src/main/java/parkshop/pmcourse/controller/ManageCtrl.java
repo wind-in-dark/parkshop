@@ -83,7 +83,7 @@ public class ManageCtrl {
 	  */
 	 
 	 /*
-	  * Manage Commission
+	  * Manage Commission(管理授权)
 		Modify Commission Rates
 	  */
 	 

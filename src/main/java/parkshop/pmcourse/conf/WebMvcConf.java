@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import parkshop.pmcourse.conf.interceptor.UserSecurityInterceptor;
+import parkshop.pmcourse.interceptor.UserSecurityInterceptor;
 
 /**
  * web页面配置类，拦截器地址在此注册

@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.utils;
+package parkshop.pmcourse.utils;
 
 import java.util.List;
 

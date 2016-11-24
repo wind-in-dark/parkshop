@@ -1,4 +1,4 @@
-package parkshop.pmcourse.conf.controller;
+package parkshop.pmcourse.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,8 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import parkshop.pmcourse.conf.domain.Info;
-import parkshop.pmcourse.conf.inter.InfoSer;
+import parkshop.pmcourse.domain.Info;
+import parkshop.pmcourse.service.inter.InfoSer;
 
 /**
  * 为已经登录或即将登录用户的前端页面显示的控制器，  " /** " 
