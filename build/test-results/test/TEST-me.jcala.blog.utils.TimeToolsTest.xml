@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="me.jcala.blog.utils.TimeToolsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-18T06:57:02" hostname="MYTHINKPAD" time="0.0">
-  <properties/>
-  <testcase name="testDate" classname="me.jcala.blog.utils.TimeToolsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
